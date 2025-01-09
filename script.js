@@ -8,7 +8,7 @@ let captchaResolved = false;
 // Initialisation : cacher le CAPTCHA au début
 captchaContainer.style.display = "none";
 
-const captchaApiKey = process.env.NEXT_PUBLIC_AWS_CAPTCHA_API_KEY;
+
 
 // Fonction pour effectuer l'appel GET à l'API
 async function fetchWhoAmI() {
