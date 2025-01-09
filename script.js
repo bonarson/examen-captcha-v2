@@ -57,7 +57,7 @@ form.addEventListener("submit", async (e) => {
 
             // Initialiser le CAPTCHA
             AwsWafCaptcha.renderCaptcha(captchaContainer, {
-                apiKey: "rpFv5laMXyVO+DkSGnm53mhOyLcilvIc9JaMYkmAwpmdfIrnGhugkhEUtLHTe8UYvAq/nQ9tWDXAtxw6cc543tSienTdFm3QlAXUSmTOpING+p9WIuQHmvwTJM2kIMoRqmFzpepFGYXKTMClSBYdQXxSrkWSVgzdD0taWoCzVQa2oUE8NRNfWQEochbpw4d6kYfMD1+tKGDBtV5QPt6XLVdUJIstiK02ohEL+djWPCMCSIApWz/ffyBmf5t1SRM5Z6LkDgnPDnu2wBCHJTAoHG10DF/HO0b5l85PtDXa6rqdohuxbIz5zur/p3Yp2FiXUApocRk0OOF9gD4MNOVtlUuwwdsaSgBPBwk6kn+H8tZi+Pjq0IRSUfAh1QqfWzFLgYftXtzbCpwY2rsYqrVZ6JSuUZGSaWZURjS2ctrxDYOi+TTTMV3KnNIfTvAu2ueV6+/KmcrBSXKHD/brUhAbN0R5D499FBySIKtfF5aJPBS76QtHu4UFgDaeabeKqUiUOnOSk8Vr7b1DN8UptGey4eZuHhQqYePudWX8so9dqX88QAK1boEw7Ffi/m1QEF1EsWAWfnWXAlsqPPRA7i3uHo8jgZS93r+e0y6Usizcxi977rdlN9NjMF/avrGywFBelLbalojWHDDjvJhgJGAhr1Jz6uabVzhAPhN5GtRWXzA=_0_1",
+                apiKey: "Vj+zI0yXNF4pXBz7RAqmqf7maOlG2lxDTyW181fohXJvWl2bEtqQgX4ntQFB6R/Lp0ixOKN7zNwYyAnX+8k6SyCwRr20wJDxGyISu0nHWcSPkZHPmF6uacJ501ht51PvvzhN2sjnHljl/3piUHukdJW5undMK3tq3I0sFXUinhmxLh5JFCPIvBfIXEDwbWq12I6dobs95GsHan+5elze8MD7Mg7EyCKrCmC1f6eVja4qN8aGtwMl40llH+UJyoJJJDSto9Wvk9IL0RiJPIBtkF4Hop1NkCCFkAkiikueAO5VWhC3Yx5N1NCSo/oCsL9rgrCTwJL7f4dOm5snMyeT9p96UhBph+hXkSB+qrkdB7Uq3cNBALSDNrTSki1fugjjfiQN3ExjkT8qKoK5SbCQDKFBuCZtXQLEoE+TtRgqqFHMiSs4pJkDWfiBs14wc+H0Ps+TgjlL0tejeNpFYZz+Y8E9MaM336sy+TDz54zulnFUuWWIqdLWz33W5ecQoB8Z86MxheASd4HxrFcTZvWlquogbVrPenu4lreBv6oz0en0k0V1UBJ8a4fy7TlaJXcCcZ6IUFn0WdxeN+a9tnhPDKjEWIfpjgWlLZ5uoHcUlUHtHKtBJjvySGZvvywua8LTfZ+GnD5CkouDqqgGaP/S3syoO1vbqO2amrjJfKKgBu8=_0_1",
                 onSuccess: () => {
                     captchaResolved = true;
                     captchaContainer.style.display = "none";
