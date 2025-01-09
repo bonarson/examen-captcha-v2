@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Séquence avec CAPTCHA</title>
+    <script type="text/javascript" src="https://f4df95ce5d70.us-east-1.captcha-sdk.awswaf.com/f4df95ce5d70/jsapi.js"
+        defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Séquence avec CAPTCHA</h1>
+        <form id="sequence-form">
+            <div class="form-group">
+                <label for="number">Nombre entre 1 et 1000</label>
+                <input type="number" id="number" name="number" placeholder="Entrez un nombre" min="1" max="1000"
+                    required />
+            </div>
+            <div id="captcha-container"></div>
+            <button type="submit" class="btn" id="submit-btn" >Commencer</button>
+        </form>
+        <div id="error-container" class="error"></div>
+        <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
