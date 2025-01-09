@@ -10,6 +10,7 @@ captchaContainer.style.display = "none";
 
 
 
+
 // Fonction pour effectuer l'appel GET à l'API
 async function fetchWhoAmI() {
     try {
