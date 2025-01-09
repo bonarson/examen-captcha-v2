@@ -59,7 +59,7 @@ form.addEventListener("submit", async (e) => {
 
             // Initialiser le CAPTCHA
             AwsWafCaptcha.renderCaptcha(captchaContainer, {
-                apiKey: "captchaApiKey",
+                apiKey: "Vj+zI0yXNF4pXBz7RAqmqf7maOlG2lxDTyW181fohXJvWl2bEtqQgX4ntQFB6R/Lp0ixOKN7zNwYyAnX+8k6SyCwRr20wJDxGyISu0nHWcSPkZHPmF6uacJ501ht51PvvzhN2sjnHljl/3piUHukdJW5undMK3tq3I0sFXUinhmxLh5JFCPIvBfIXEDwbWq12I6dobs95GsHan+5elze8MD7Mg7EyCKrCmC1f6eVja4qN8aGtwMl40llH+UJyoJJJDSto9Wvk9IL0RiJPIBtkF4Hop1NkCCFkAkiikueAO5VWhC3Yx5N1NCSo/oCsL9rgrCTwJL7f4dOm5snMyeT9p96UhBph+hXkSB+qrkdB7Uq3cNBALSDNrTSki1fugjjfiQN3ExjkT8qKoK5SbCQDKFBuCZtXQLEoE+TtRgqqFHMiSs4pJkDWfiBs14wc+H0Ps+TgjlL0tejeNpFYZz+Y8E9MaM336sy+TDz54zulnFUuWWIqdLWz33W5ecQoB8Z86MxheASd4HxrFcTZvWlquogbVrPenu4lreBv6oz0en0k0V1UBJ8a4fy7TlaJXcCcZ6IUFn0WdxeN+a9tnhPDKjEWIfpjgWlLZ5uoHcUlUHtHKtBJjvySGZvvywua8LTfZ+GnD5CkouDqqgGaP/S3syoO1vbqO2amrjJfKKgBu8=_0_1",
                 onSuccess: () => {
                     captchaResolved = true;
                     captchaContainer.style.display = "none";
